@@ -1,0 +1,28 @@
+<h1><span class='cmd'>list</span> internal command</h1>
+<p>
+The <span class='cmd'>list</span> command takes the following form:
+</p>
+<div class='cmdblock'>
+  list OBJECTTYPE
+</div>
+<p>
+        The command displays a
+        <a href='listview.html'>list view</a> containing
+        objects of the specified type.
+        <span class='cmd'>OBJECTTYPE</span> may be one of
+        <span class='cmd'>service</span>,
+        <span class='cmd'>process</span>,
+        <span class='cmd'>remoteshare</span>,
+        <span class='cmd'>localshare</span>,
+        <span class='cmd'>network</span> or
+        <span class='cmd'>driver</span> or
+        <span class='cmd'>eventlog</span> or
+        <span class='cmd'>module</span>.
+</p>
+<div class="seealso">
+  <h2>Related topics</h2>
+  <ul>
+    <li><a href="objecttypes.html">Supported object types</a></li>
+    <li><a href="usercmd.html">Running user commands</a></li>
+  </ul>
+</div>
