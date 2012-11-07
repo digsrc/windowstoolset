@@ -1,0 +1,163 @@
+/* WiTS website customization - built on top of on YUI CSS */
+
+h1,h2 {
+  color: #888888;
+  margin-bottom: 0.5em;
+}
+
+#hd {
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #aaaaaa;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #aaaaaa;
+    margin-right: 150px;
+}
+#hd p {
+    margin-bottom: 0px;
+}
+
+#bd {
+    padding-left: 120px;
+    padding-right: 150px;
+}
+
+#ft {
+    font-size: 77%;
+    text-align: center;
+    border-top: 1px solid #aaaaaa;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+div.headingbar {
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: #888888;
+    line-height: 64px;
+    background-image: url(logo.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    text-indent: 60px;
+}
+
+div.headingbar a:link, div.headingbar a:visited {
+  text-decoration: none;
+  color: #888888;
+}
+
+div.headingbar a:hover {
+  color: #880000;
+}
+
+div.headingads {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #AAAAAA;
+    text-indent: 60px;
+}
+
+div.sideads {
+  width: 140px;
+  margin-left: 10px;
+  margin-right: -150px;
+  margin-top: 4em;
+  color:red;
+}
+
+div.navigation {
+  width: 120px;
+  margin-left: -120px;
+  margin-top: 0.5em;
+}
+
+.navigation ul {
+  margin-left: 0em;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation li a:link, .navigation li a:visited {
+  text-decoration: none;
+  color: #00f;
+}
+
+.navigation li a:hover {
+  font-weight: bold;
+}
+
+.seealso ul {
+  margin-top: 0em;
+  margin-left: 0.5em;
+}
+
+.seealso ul li {
+  list-style: none;
+  color: #00f;
+}
+
+.seealso a {
+  text-decoration: none;
+}
+
+.witsmenu { color: blue; font-family: Arial; font-size: 93%; font-weight: bold;}
+.debug { background-color: red; }
+.seemore {
+  font-size: 93%;
+}
+.blockquote {
+  font-size: 93%;
+  margin-left: 4em;
+}
+.cmd {
+  font-size: 100%;
+  font-family: "Courier New", Courier;
+}
+.cmdblock {
+  font-size: 100%;
+  font-family: "Courier New", Courier;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.content {
+  font-family: Verdana;
+  font-size: 108%;
+  width: 100%;
+}
+
+.news {
+  color: red;
+  font-size: 93%;
+  margin: 0px;
+}
+
+div.news {
+  margin-top: 2 em;
+}
+
+.news dl {
+  margin: 0px;
+}
+
+
+.news h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 100%;
+}
+
+.news a:link, .news a:visited {
+  color: red;
+  text-decoration: underline;
+}
+
+.news a:hover {
+  /* color: #00f; */
+}
